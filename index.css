@@ -1,0 +1,278 @@
+    *{
+    margin: 0%;
+    padding: 0%;
+    user-select: none;
+    color: white;
+}
+.nav{
+    height: 70px;
+    background-color: #000;
+}
+.logo p{ /*--------Brand Name in Navigation bar-----*/
+    color: #fff;
+    font-weight: bolder;
+    display: inline-block;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: x-large;
+    font-family:serif;
+    cursor: pointer;
+}
+.nav ul{
+    padding-left: 50%;
+    display: inline;
+}
+li{
+    display: inline;
+    padding: 5px 10px;
+    font-size: 19px;
+}
+.nav li a{
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.nav li a:hover{  /*-------Hover in Navigation-----*/
+    transition: 0.5ms;
+    font-size: x-large;
+}
+.video1{  /*-----------Video-------*/
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about{     /*------------------------SECOND SECTION-------------------------------*/
+    height: 79vh;
+    background-color: rgb(11, 11, 11);
+}
+.img1 img{
+    float: left;
+    height: 74vh;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    padding-left: 30px;
+}
+.content h2{
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 260px;
+}
+.content p{
+    display: flex;
+    font-size: larger;
+    color: #fff;
+    padding-left: 70px;
+    margin-right: 100px;
+    font-size: 22px;
+}
+.extra img{ /*---------------------THIRD SECTION--------------------------*/
+    background-position: center;
+    background-size: cover;
+    width: 1471px;
+}
+.Features{  /*-------------------------FORTH SECTION-------------------------------*/
+    background-image: url('back.jpg');
+    color:aliceblue;
+    height: 700px;
+}
+.Features h1{  /*-------Heading of the Features--------*/
+    display: inline-block;
+    font-size: 50px;
+    padding-left: 200px;
+    padding-top: 50px;
+
+}
+.Features img{
+    height: 550px;
+    float: left;
+    padding-top: 150px;
+}
+.whole{ /*-------------To Allign the text & Differentiate the text--------------*/
+    display: flex;
+    justify-content: space-evenly;
+}
+.whole p{
+    font-size: larger;
+    padding-left: 30px;
+    padding-right: 50px;
+    background: transparent;
+    
+}
+.whole h3{
+    font-size: x-large;
+    padding-left: 30px;
+    padding-right: 50px;
+    background: transparent;
+}
+.primg{  /*-------------------FIFTH SECTION------------------------------*/
+    display:flex;
+    cursor: pointer;
+    background-color: #000;
+    height: 600px;
+}
+
+.model h1{
+    display: inline;
+    margin-left: 45%;
+    height: 10px;
+    width: 30px;
+}
+.model{
+    background-color: #000;
+    color: white;
+}
+.primg img{
+    height: 400px;
+    padding-left: 65px;
+    padding-top: 50px;
+    filter: grayscale(100%);
+    transition: 1s;  /*----Transition duration----*/
+    position: absolute;
+}
+.primg img:hover{   /*-----this is for the black hover effect-----*/
+    filter: grayscale(0%);
+}
+.detail{
+    margin-top: 96.8%;
+    margin-left: 65px;
+    height: 90px;
+    width: 400px;
+    padding: 6px;
+    box-sizing: border-box;
+    background:rgb(30, 29, 29);
+    color: white;
+    position: relative;
+}
+.detail h1{
+    margin-left: 10px;
+}
+.detail h3{
+    margin-left: 85px;
+}
+hr{  /*--------------STRAIGHT LINE ABOVE CONTACT PAGE------------------*/
+    height: 3px;
+}
+.footer{   /*-----------------------SIXTH SECTION-----------------------*/
+    background-color: black;
+    display: flex;
+    cursor: pointer;
+    height: 300px;
+}
+.con{
+    background-color: #000;
+    color: #fff;
+}
+.con h1{
+    display: inline;
+    padding-left: 42%;
+    height: 10px;
+    width: 30px;
+}
+.first{ /*-----------First------------*/
+    display: inline-block;
+}
+.first h2{
+    display: flex;
+    margin-left: 50px;
+    padding: 5px;
+}
+.first h3{
+    margin-left: 50px;
+}
+
+.second{  /*--------------Second---------*/
+    display: inline-block;
+}
+.second h2{
+    display: flex;
+    margin-left: 50px;
+    padding: 5px;
+}
+.second h3{
+    margin-left: 50px;
+}
+
+.third{ /*-------------Third---------------*/
+    float: right;
+}
+.third h2{
+    display: flex;
+    margin-left: 50px;
+    padding: 5px;
+}
+.third h3{
+    margin-left: 50px;
+}
+
+.forth{ /*----------Forth----------*/
+    float: right;
+}
+.forth h2{
+    display: flex;
+    margin-left: 50px;
+    padding: 5px;
+}
+.forth h3{
+    margin-left: 50px;
+}
+/*-----------------------------------ICONS-------------------------------*/
+.contact p{
+    padding-left: 75%;
+    padding-top: 50px;
+    font-size:xx-large;
+}
+.fa-facebook{
+    color: white;
+    font-size: 30px;
+    padding-left: 39%;
+    display: inline;
+}
+.fa-instagram{
+    color:white;
+    font-size: 30px;
+    padding-left:5px;
+    padding-top: 10px;
+    display: inline-block;
+}
+.fa-twitter{
+    color:white;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-top: 10px;
+    display: inline-block;
+}
+/* .fa-discord{
+    color:white;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.fa-github{
+    color:white;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-top: 10px;
+    display: inline-block;
+} */
+.top{
+    margin-top: 220px;
+    margin-left: 150px;
+    background: orangered;
+    font-size: xx-large;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 10px;
+}
